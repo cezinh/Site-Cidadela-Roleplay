@@ -70,8 +70,8 @@ export const siteConfig = {
     /** Vazio = o WhatsApp não aparece no site. */
     whatsapp: "",
     rules: "https://SEU-LINK-DAS-REGRAS",
-    instagram: "https://www.instagram.com/cidadelarp",
-    tiktok: "https://www.tiktok.com/@cidadelarp",
+    instagram: "https://www.instagram.com/cidadelarp_/",
+    tiktok: "https://www.tiktok.com/@cidadelarp_",
     youtube: "",
     /** Onde o jogador se candidata ao programa de criadores. Vazio = usa o Discord. */
     creatorsApply: "",
