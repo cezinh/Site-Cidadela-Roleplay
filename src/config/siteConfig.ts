@@ -66,10 +66,10 @@ export const siteConfig = {
   },
 
   links: {
-    discord: "https://discord.gg/cidadelarp",
+    discord: "https://discord.gg/YaaSJBE8ZR",
     /** Vazio = o WhatsApp não aparece no site. */
     whatsapp: "",
-    rules: "https://SEU-LINK-DAS-REGRAS",
+    rules: "https://discord.gg/YaaSJBE8ZR", // Regras Cidadela Roleplay
     instagram: "https://www.instagram.com/cidadelarp_/",
     tiktok: "https://www.tiktok.com/@cidadelarp_",
     youtube: "",
