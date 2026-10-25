@@ -11,14 +11,6 @@
  * ============================================================================
  */
 
-export type StatItem = {
-  /** Valor final da contagem animada. */
-  value: number;
-  /** Texto exibido depois do número (ex.: "+", "%", "/7"). */
-  suffix?: string;
-  label: string;
-};
-
 export const siteConfig = {
   name: "Cidadela Roleplay",
   shortName: "Cidadela",
@@ -99,25 +91,12 @@ export const siteConfig = {
   },
 
   /**
-   * ATENÇÃO: números de exemplo (placeholders).
-   * Substitua pelos dados reais da Cidadela antes de publicar.
-   */
-  stats: [
-    { value: 10000, suffix: "+", label: "Jogadores na comunidade" },
-    { value: 24, suffix: "/7", label: "Cidade online" },
-    { value: 100, suffix: "+", label: "Histórias criadas" },
-    { value: 100, suffix: "%", label: "Foco no roleplay" },
-  ] satisfies StatItem[],
-
-  /**
    * Imagens opcionais. Coloque os arquivos em /public/images e informe o caminho
    * (ex.: "/images/hero.webp"). Vazio = o site usa a arte padrão da Cidadela.
    */
   images: {
     /** Foto/print cinematográfico de fundo do Hero. */
     hero: "",
-    /** Imagem da seção "Quem somos" (vazio = mapa ilustrado da cidade). */
-    about: "",
     /** Fundo da seção de comunidade. */
     community: "",
     /**

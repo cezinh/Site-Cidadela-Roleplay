@@ -206,12 +206,12 @@ export function HeroSection({ ready }: { ready: boolean }) {
               Jogar agora
             </Button>
             <ButtonLink
-              href="#sobre"
+              href="#organizacoes"
               variant="ghost"
               arrow="next"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToId("sobre");
+                scrollToId("organizacoes");
               }}
             >
               Conhecer a cidade

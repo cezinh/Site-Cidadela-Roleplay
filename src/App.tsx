@@ -7,8 +7,6 @@ import { Footer } from "@/components/layout/Footer";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { EconomyToggle } from "@/components/EconomyToggle";
 import { HeroSection } from "@/sections/HeroSection";
-import { AboutSection } from "@/sections/AboutSection";
-import { StatsSection } from "@/sections/StatsSection";
 import { HowToPlaySection } from "@/sections/HowToPlaySection";
 import { CommunitySection } from "@/sections/CommunitySection";
 import { RulesSection } from "@/sections/RulesSection";
@@ -32,8 +30,6 @@ export default function App() {
             <Navbar ready={ready} />
             <main id="conteudo">
               <HeroSection ready={ready} />
-              <AboutSection />
-              <StatsSection />
               <LegalOrgsSection />
               <HowToPlaySection />
               <CreatorsSection />

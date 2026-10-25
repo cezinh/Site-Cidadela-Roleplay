@@ -23,7 +23,6 @@ import {
  */
 export const navLinks = [
   { id: "inicio", label: "Início", compact: false },
-  { id: "sobre", label: "Sobre nós", compact: true },
   { id: "organizacoes", label: "Organizações", compact: true },
   { id: "como-jogar", label: "Como jogar", compact: true },
   { id: "criadores", label: "Criadores", compact: true },
@@ -37,17 +36,6 @@ export const hero = {
   titleLines: ["Viva a cidade.", "Construa sua história."],
   description:
     "Um servidor de GTA RP feito para quem quer muito mais do que jogar: viver um personagem, fazer nome na cidade e deixar a sua marca.",
-};
-
-export const about = {
-  tag: "Quem somos",
-  title: "Na Cidadela ninguém é figurante.",
-  paragraphs: [
-    "A Cidadela Roleplay é uma cidade no FiveM construída em cima de uma ideia simples: ela só está viva quando cada pessoa tem uma história para contar. Do primeiro emprego ao comando de uma organização, cada escolha deixa marca e muda a cidade para todo mundo.",
-    "Aqui a economia é movida pelos próprios jogadores, as profissões têm peso e as organizações disputam espaço com estratégia, não só com força. A cidade evolui junto com a comunidade, atualização após atualização.",
-    "Chegou agora? Ninguém começa grande. Mas todo mundo começa com a mesma liberdade de decidir quem vai ser.",
-  ],
-  mapCaption: "Rota traçada até a sua primeira história.",
 };
 
 export const howToPlay = {
